@@ -10,6 +10,7 @@ build_image: shippableimages/ubuntu1204_clojure:0.0.2
 before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
+  - git config --list
 
 # Running the test with Leiningen
 script:
