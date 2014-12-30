@@ -6,9 +6,6 @@ lein:
   - lein2
   - lein2
 
-build_image: shippableimages/ubuntu1204_clojure:0.0.2
-commit_container: amurphy/testclojure
-
 # Create directories for test and coverage reports
 before_script:
   - mkdir -p shippable/testresults
@@ -22,4 +19,4 @@ script:
 
 notifications: false
 
-cache: true
+build_image: shippableimages/ubuntu1204_clojure:0.0.2
