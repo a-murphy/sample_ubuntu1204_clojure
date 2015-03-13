@@ -16,6 +16,6 @@ before_script:
 script:
   - cd sample
   - lein test
-  - return 0
+  - exit 1
 
 notifications: false
