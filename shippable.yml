@@ -21,3 +21,5 @@ script:
   - lein test
 
 notifications: false
+
+cache: true
