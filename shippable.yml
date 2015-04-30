@@ -19,4 +19,3 @@ script:
 
 notifications: false
 
-build_image: shippableimages/ubuntu1204_clojure:0.0.2
