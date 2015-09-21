@@ -17,9 +17,7 @@ before_script:
 script:
   - cd sample
   - lein test2junit
-  - ls test
-  - ls target
-  - ls src
+  - ls -R
 
 notifications: false
 
