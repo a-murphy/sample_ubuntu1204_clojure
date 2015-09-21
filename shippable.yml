@@ -14,9 +14,6 @@ before_script:
   - git config --list
 
 # Running the test with Leiningen
-script:
-  - cd sample
-  - lein test
 
 notifications: false
 
