@@ -7,4 +7,4 @@
   :main ^:skip-aot sample.core
   :target-path "target/%s"
   :profiles {:dev {:plugins [[test2junit "1.1.1"]]}}
-  :test2junit-output-dir "shippable/testresults")
+  :test2junit-output-dir "../shippable/testresults")
