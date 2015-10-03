@@ -19,6 +19,16 @@ script:
   - lein test2junit
   - ls -R
 
-notifications: false
+notifications:
+  email:
+    on_success: always
+    on_failure: never
+    recipients:
+      - aidan@shippable.com
+  irc:
+    channels:
+      - localhost#channel1
+      - localhost#channel2
+    pull_requests: true
 
 cache: true
