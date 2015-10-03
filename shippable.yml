@@ -20,9 +20,7 @@ script:
   - ls -R
 
 notifications:
-  email:
-    - aidan@shippable.com
-  irc:
-    channels: localhost#channel1
+  email: false
+  irc: localhost#channel1
 
 cache: true
