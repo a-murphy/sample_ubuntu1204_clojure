@@ -21,10 +21,8 @@ script:
 
 notifications:
   email:
-    on_success: always
-    recipients: aidan@shippable.com
+    - aidan@shippable.com
   irc:
-    - localhost#channel1
-    - localhost#channel2
+    channels: localhost#channel1
 
 cache: true
