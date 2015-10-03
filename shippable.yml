@@ -21,6 +21,5 @@ script:
 
 notifications:
   email: false
-  irc: localhost#channel1
 
 cache: true
