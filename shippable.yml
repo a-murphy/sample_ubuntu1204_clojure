@@ -20,7 +20,7 @@ before_script:
 script:
   - psql -c 'create database myapp_test;' -U postgres
   - psql -c 'create role shippable with superuser;' -U postgres
-  - psql -tAc "SELECT 1 FROM pg_roles WHERE rolname='USR_NAME';" -U postgres
+  - psql -tAc "SELECT 1 FROM pg_roles WHERE rolname='shippable';" -U postgres
   - cd sample
   - lein test2junit
   - ls -R
